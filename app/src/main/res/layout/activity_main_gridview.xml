@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivityGridview"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1"
+            android:layout_gravity="top|left"
+            android:gravity="top">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:mtf_image="@drawable/ic_search_black_24dp"
+
+                app:mtf_cardCollapsedHeight="4dp"
+
+                app:mtf_animationDuration="400"
+                app:mtf_labelColor="@android:color/holo_red_dark"
+                app:mtf_openKeyboardOnFocus="true"
+                android:layout_gravity="top">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/searchText"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="textAutoComplete|text" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/card_recycler_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06" />
+    </LinearLayout>
+
+</LinearLayout>

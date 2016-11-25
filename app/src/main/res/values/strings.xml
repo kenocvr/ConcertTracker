@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Concert Tracker</string>
+
+    <string name="Adele">Adele</string>
+
+    <string name="Barbra_Streisand">Barbra Streisand</string>
+    <string name="Beyoncé">Beyoncé</string>
+    <string name="Seconds_of_Summer">5 Seconds of Summer</string>
+    <string name="Billy_Joel">Billy Joel</string>
+    <string name="Black_Sabbath">Black Sabbath</string>
+    <string name="Blink_182">Blink-182</string>
+    <string name="Bonnie_Raitt">Bonnie Raitt</string>
+    <string name="Brantley_Gilbert">Brantley Gilbert</string>
+    <string name="Britney_Spears">Britney Spears</string>
+    <string name="Bruce_Springsteen">Bruce Springsteen</string>
+    <string name="Carrie_Underwood">Carrie Underwood</string>
+    <string name="Chris_Botti">Chris Botti</string>
+    <string name="Coldplay">Coldplay</string>
+
+
+
+
+
+</resources>
