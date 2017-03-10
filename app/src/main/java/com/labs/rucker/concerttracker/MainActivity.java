@@ -225,10 +225,8 @@ public class MainActivity extends AppCompatActivity implements DataAdapterView.C
 
                     try {
 
-                        List<PojoBand> StudentData = response.body();
-                        List<PojoBand> jsonResponse = response.body();
+                        List<PojoBand> artistData = response.body();
 
-                        //data = new StudentData;
                         data = new List<PojoBand>() {
                             @Override
                             public void add(int location, PojoBand object) {
@@ -350,8 +348,7 @@ public class MainActivity extends AppCompatActivity implements DataAdapterView.C
                                 return null;
                             }
                         };
-                        // Object[] datas = StudentData.toArray();
-                        adapter = new DataAdapter(StudentData);
+                        adapter = new DataAdapter(artistData);
 
                         recyclerView.setAdapter(adapter);
 
